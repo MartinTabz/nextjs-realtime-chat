@@ -1,7 +1,10 @@
 ## Jak vyzkoušet projekt?
 
-Nejdříve si vytvořte nový Supabase projekt - [zde](https://app.supabase.com/projects)
+1) Nejdříve si naklonujte/stáhněte projekt.
 
+
+
+2) Vytvořte nový Supabase projekt - [zde](https://app.supabase.com/projects)
 V Supabase dashboard běžte do *SQL Editor*, vlevo nahoře klikněte na *New query* a vlože zde tuto SQL query:
 ```sql
 create table public.zpravy (
@@ -14,21 +17,25 @@ create table public.zpravy (
 a v pravo dole klikněte na *RUN*.
 
 
-Vytvořte soubor s názvem ***.env.local*** a do něho vložte URL a ANON klíč ze Supabase:
+
+3) Vytvořte soubor s názvem ***.env.local*** a do něho vložte URL a ANON klíč ze Supabase:
 
 `NEXT_PUBLIC_SUPABASE_URL=`
+
 `NEXT_PUBLIC_SUPABASE_ANON_KEY=`
- 
-Stáhněte balíčky:
+
+
+
+4) Stáhněte balíčky:
 ```bash
 npm install
 ```
 
-Poté nastartujte development server:
+5) Poté nastartujte development server:
 
 ```bash
 npm run dev
 ```
 
-Otevřte [http://localhost:3000](http://localhost:3000) v prohlížeči, abyste viděli výsledek.
+6) Otevřte [http://localhost:3000](http://localhost:3000) v prohlížeči, abyste viděli výsledek.
 
