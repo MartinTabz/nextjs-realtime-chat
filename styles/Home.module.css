@@ -101,4 +101,11 @@
 		font-weight: 600;
 		font-size: 1rem;
 	}
+	.inputarea form input,
+	.inputarea form textarea {
+		font-size: 1.1rem;
+		padding: 7px;
+		border: 1px solid rgb(177, 177, 177);
+		border-radius: 10px;
+	}
 }
