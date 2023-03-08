@@ -5,6 +5,7 @@
 
 
 2) Vytvořte nový Supabase projekt - [zde](https://app.supabase.com/projects)
+
 V Supabase dashboard běžte do *SQL Editor*, vlevo nahoře klikněte na *New query* a vlože zde tuto SQL query:
 ```sql
 create table public.zpravy (
